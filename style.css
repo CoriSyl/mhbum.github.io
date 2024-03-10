@@ -1,0 +1,86 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0px;
+    padding: 100px;
+    border: 10px solid darkred;
+    text-shadow: 3px 3px red;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 30px;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover {
+    color:chartreuse;
+}
+
+#heart {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/700/222/original/seamless-pattern-with-hand-drawn-hearts-on-dark-background-valentine-decoration-romance-print-can-be-used-for-wallpaper-wrapping-paper-cover-fabric-design-postcard-web-page-vector.jpg");
+}
+
+.inline li {
+    display: inline;
+    font-size: 50px;
+    padding: 0px 140px;
+    font-weight: bold;
+}
+
+ul.inline {
+    width: 100%;
+    padding: 30px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 3px solid red;
+    padding: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* 
+#schedule {
+    margin: 0 auto;
+} */
